@@ -22,7 +22,8 @@
 	"scripts": {
 		"test": "xo && ava && tsc index.d.ts",
 		"build": "node scripts/build.js",
-		"prepublish": "npm run build"
+		"prepublish": "npm run build",
+		"bench": "node benchmark.js"
 	},
 	"files": [
 		"index.js",
